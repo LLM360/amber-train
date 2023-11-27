@@ -1,2 +1,2 @@
-# model7b-train
-LLM Pre-training Code
+# amber-train
+Pre-training code for Amber 7B LLM.
