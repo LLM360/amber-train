@@ -35,8 +35,8 @@ Get access now at [LLM360 site](https://www.llm360.ai/)
 ```python
 from transformers import LlamaTokenizer, LlamaForCausalLM
 
-tokenizer = LlamaTokenizer.from_pretrained("llm360/amber")
-model = LlamaForCausalLM.from_pretrained("llm360/amber", chunk_idx=111)
+tokenizer = LlamaTokenizer.from_pretrained("LLM360/Amber", revision="ckpt_356")
+model = LlamaForCausalLM.from_pretrained("LLM360/Amber", revision="ckpt_356")
 
 input_text = "translate English to German: How old are you?"
 input_ids = tokenizer(input_text, return_tensors="pt").input_ids
@@ -78,7 +78,7 @@ print(tokenizer.decode(outputs[0]))
 
 # Evaluation
 
-| ARC                                                 | HellSwag                                                  | 
+| ARC                                                 | HellaSwag                                                  | 
 |------------------------------------------------------|------------------------------------------------------------|
 | <img src="amber-arc-curve.png" alt="arc" width="400"/> | <img src="amber-hellaswag-curve.png" alt="hellaswag" width="400"/> | 
 
