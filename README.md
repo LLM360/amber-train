@@ -73,7 +73,7 @@ print(tokenizer.decode(outputs[0]))
 
 | Training Loss                                              |
 |------------------------------------------------------------|
-| <img src="loss_curve.png" alt="loss curve" width="400"/> |
+| <img src="amber-training-loss.png" alt="loss curve" width="400"/> |
 
 
 # Evaluation
