@@ -2,8 +2,8 @@
 
 <center><img src="amber_logo.png" alt="amber logo" width="300"/></center>
 
-We present Amber, our frist model in the LLM360 family. Amber is an
-7B English language model with the LLaMA architecture. 
+Amber is the first model in the LLM360 family. Amber is an
+7B English language model with the LLaMA architecture.
 
 ## About LLM360
 LLM360 is an initiative for comprehensive and fully open-sourced LLMs, 
