@@ -66,7 +66,7 @@ print(tokenizer.decode(outputs[0]))
 | Hidden Size   | 4096        |
 | Intermediate Size (MLPs)   | 11008        |
 | Number of Attention Heads   | 32        |
-| Number of Hidden Lyaers  | 32        |
+| Number of Hidden Layers  | 32        |
 | RMSNorm ɛ  | 1e^-6        |
 | Max Seq Length   | 2048        |
 | Vocab Size | 32000 |
