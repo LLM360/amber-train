@@ -88,4 +88,15 @@ print(tokenizer.decode(outputs[0]))
 
 # Citation
 
-Coming soon...
+**BibTeX:**
+
+```bibtex
+@misc{liu2023llm360,
+      title={LLM360: Towards Fully Transparent Open-Source LLMs}, 
+      author={Zhengzhong Liu and Aurick Qiao and Willie Neiswanger and Hongyi Wang and Bowen Tan and Tianhua Tao and Junbo Li and Yuqi Wang and Suqi Sun and Omkar Pangarkar and Richard Fan and Yi Gu and Victor Miller and Yonghao Zhuang and Guowei He and Haonan Li and Fajri Koto and Liping Tang and Nikhil Ranjan and Zhiqiang Shen and Xuguang Ren and Roberto Iriondo and Cun Mu and Zhiting Hu and Mark Schulze and Preslav Nakov and Tim Baldwin and Eric P. Xing},
+      year={2023},
+      eprint={2312.06550},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
