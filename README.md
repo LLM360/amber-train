@@ -1,9 +1,20 @@
-# Amber
+<h1 align="center">Amber: the first model of LLM360</h1>
 
-<center><img src="amber_logo.png" alt="amber logo" width="300"/></center>
+<div align="center">
+   <img src="amber_logo.png" alt="amber logo" width="300"><br><br>
+</div>
 
-Amber is the first model in the LLM360 family. Amber is an
-7B English language model with the LLaMA architecture.
+---
+
+<p align="center">
+   <a href="https://github.com/LLM360/Analysis360/blob/dev/LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="license"></a>
+</p>
+<p align="center">
+🤗 <a href="https://huggingface.co/LLM360/Amber">[Amber Download]</a> • 🤗 <a href="https://huggingface.co/LLM360/AmberChat">[AmberChat Download]</a>  • 📈 <a href="https://github.com/LLM360/Analysis360/blob/main/README.md#list-of-analysis-and-metrics
+">[Analysis and Results]</a> • 📗 <a href="https://huggingface.co/datasets/LLM360/AmberDatasets">Pretraining Dataset</a>
+</p>
+
+
 
 ## About LLM360
 LLM360 is an initiative for comprehensive and fully open-sourced LLMs, 
@@ -19,6 +30,7 @@ effort.
 Get access now at [LLM360 site](https://www.llm360.ai/)
 
 ## Model Description
+Amber is the first model in the LLM360 family. Amber is an 7B English language model with the LLaMA architecture.
 
 - **Model type:** Language model with the same architecture as LLaMA-7B
 - **Language(s) (NLP):** English
