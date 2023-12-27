@@ -1,7 +1,7 @@
 <h1 align="center">Amber: the first model of LLM360</h1>
 
 <div align="center">
-   <img src="amber_logo.png" alt="amber logo" width="300"><br><br>
+   <img src="figs/amber_logo.png" alt="amber logo" width="300"><br><br>
 </div>
 
 ---
@@ -83,20 +83,20 @@ print(tokenizer.decode(outputs[0]))
 | Max Seq Length   | 2048        |
 | Vocab Size | 32000 |
 
-| Training Loss                                              |
-|------------------------------------------------------------|
-| <img src="amber-training-loss.png" alt="loss curve" width="400"/> |
+| Training Loss                                                          |
+|------------------------------------------------------------------------|
+| <img src="figs/amber-training-loss.png" alt="loss curve" width="400"/> |
 
 
 # Evaluation
 
 | ARC                                                 | HellaSwag                                                  | 
 |------------------------------------------------------|------------------------------------------------------------|
-| <img src="amber-arc-curve.png" alt="arc" width="400"/> | <img src="amber-hellaswag-curve.png" alt="hellaswag" width="400"/> | 
+| <img src="figs/amber-arc-curve.png" alt="arc" width="400"/> | <img src="figs/amber-hellaswag-curve.png" alt="hellaswag" width="400"/> | 
 
 |MMLU                                                 | TruthfulQA                                                 |
 |-----------------------------------------------------|-----------------------------------------------------------|
-|<img src="amber-mmlu-curve.png" alt="mmlu" width="400"/> | <img src="amber-truthfulqa-curve.png" alt="truthfulqa" width="400"/> |
+|<img src="figs/amber-mmlu-curve.png" alt="mmlu" width="400"/> | <img src="figs/amber-truthfulqa-curve.png" alt="truthfulqa" width="400"/> |
 
 # Citation
 

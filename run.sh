@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=red_coast_7b
+#SBATCH --job-name=amber-7b
 #SBATCH --partition=gpumid
 #SBATCH --nodes=20
 #SBATCH --ntasks-per-node=4

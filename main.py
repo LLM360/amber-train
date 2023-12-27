@@ -25,7 +25,7 @@ from main_utils import (
 TIMEZONE = timezone('EST')
 DATE = str(datetime.now(tz=TIMEZONE)).split()[0]
 MODEL_SIZE = '7b'
-PROJECT_NAME = f'red_coast_mbzuai_llm_{MODEL_SIZE}_continue'
+PROJECT_NAME = f'amber_{MODEL_SIZE}'
 RUN_NAME = f'pretraining_{MODEL_SIZE}_{DATE}'
 HF_MODEL_NAME_OR_PATH = f'huggyllama/llama-{MODEL_SIZE}'
 WORKDIR = f'workdir_{MODEL_SIZE}'
@@ -39,7 +39,7 @@ WEIGHT_DECAY = 0.1
 BETA1 = 0.9
 BETA2 = 0.95
 ACCELERATOR = 'cuda'
-PRECISION = '32-true'
+PRECISION = 'bf16-mixed'
 RANDOM_SEED = 11111
 
 TRAIN_DATA_DIR = './data'
@@ -118,11 +118,9 @@ def train_chunk(fabric,
 
 def main(n_nodes=1,
          n_devices_per_node=4,
-         per_device_batch_size=7,
-         accumulate_grad_batches=4,
+         per_device_batch_size=10,
+         accumulate_grad_batches=1,
          run_wandb=False):
-    torch.set_float32_matmul_precision('high')
-
     fabric = L.Fabric(
         accelerator=ACCELERATOR,
         num_nodes=n_nodes,
