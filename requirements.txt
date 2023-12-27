@@ -1,0 +1,5 @@
+torch>=2.0.0
+lightning==2.1.3
+transformers
+fire
+wandb
